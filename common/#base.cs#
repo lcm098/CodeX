@@ -1,0 +1,14 @@
+
+namespace Codex.Common
+{
+    // // public struct Codex
+    // // {
+    // //     public object matrix;
+    // //     public int[] stride;
+    // // 	public int ndim;
+    // // 	public int[] shape;
+    // // 	public string device;
+    // // 	public string dtype;
+	
+    // // }
+}

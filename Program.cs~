@@ -1,0 +1,18 @@
+﻿
+using System;
+using Codex.Common;
+
+namespace std {
+    class Program {
+	public static void Main(string[] args) {
+	    
+	    CodexMatrix m = Ops.matrix(new double[] { 1.5, 2.5, 3.5 }, "float32");
+	    Console.WriteLine($"dtype:  {m.dtype}");
+	    Console.WriteLine($"device: {m.device}");
+	    Console.WriteLine($"ndim:   {m.ndim}");
+	    Console.WriteLine($"shape:  [{string.Join(", ", m.shape)}]");
+	    Console.WriteLine($"stride: [{string.Join(", ", m.stride)}]");
+	    Console.WriteLine($"data:   [{string.Join(", ", m.matrix)}]");
+	}
+    }
+}
